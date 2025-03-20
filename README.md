@@ -50,7 +50,7 @@ We faced many challenges that we did not expect to encounter while trying to com
 ## Mechanical Designs
 | Part | CAD Model |
 |------|--------------|
-| Electronics Mounting Plate | <img width="634" alt="Electronics Plate" src="Images/Electronics Plate.jpg"><br>[🔗 CAD File](CAD%2Files/New%2Chassis/Electronics%2plate%2v13.f3d) |
+| Electronics Mounting Plate | <img width="634" alt="Electronics Plate" src="Images/Electronics Plate.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Electronics%20plate%20v13.f3d) |
 | Camera Mount | <img width="634" alt="Camera Mount" src="Images/Camera Mount Assembly .png"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Camera%20Mount/Camera%20Mount%20assembly%20v5.f3z) |
 | GPS Mount | <img width="634" alt="GPS Mount" src="Images/GPS mount.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Gps%20mount%20v2.f3d) |
 | Hinge Arm | <img width="634" alt="Hinge Arm" src="Images/Hinge Arm.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Hinge%20arm%20v8.f3d) |
