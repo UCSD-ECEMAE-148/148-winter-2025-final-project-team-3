@@ -47,4 +47,12 @@ We faced many challenges that we did not expect to encounter while trying to com
 <hr>
 
 
+## Mechanical Designs
+| Part | CAD Model |
+|------|--------------|
+| Electronics Mounting Plate, by Kim Garbez | <img width="634" alt="Electronics Plate" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/3689840ba557e5019b51dbe9dce521f3714cee7c/img/Plate.png"> |
+| Camera Mount, by William Harris | <img width="634" alt="Camera Mount" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/Camera.webp"> |
+| Lidar Mount, by Kim Garbez | <img width="634" alt="Lidar Mount" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/LIDAR.png"> |
+| GPS Mount, by Kim Garbez | <img width="634" alt="GPS Mount" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/GPS.png"> |
+| Jetson Case, Retrieved from: https://www.thingiverse.com/thing:3532828/files | <img width="634" alt="Jetson Case" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/Jetson_Case.jpg"> |
 
