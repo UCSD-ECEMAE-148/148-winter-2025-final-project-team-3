@@ -10,6 +10,8 @@
     <li><a href="#what-we-promised">Promises and Stretch Goals</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#challenges">Challenges</a></li>
+    <li><a href="#Potential-Improvements">Potential Improvements</a></li>
+    <li><a href="#Demonstrations">Demonstrations</a></li>
     <li><a href="#Robot-Design">Robot Design</a></li>
       <ul>
         <li><a href="#Mechanical-Designs">Mechanical Designs</a></li>
@@ -49,6 +51,36 @@ We succesfully utilized the Point One Nav GNSS in order to get global positions 
 We faced many challenges that we did not expect to encounter while trying to complete our project. The first of which
 
 <hr>
+
+## Potential Improvements
+
+<hr>
+
+## Demonstrations
+
+### Section 1: [Title of Demonstration]
+**Description:**  
+Write your description here.
+
+<iframe width="560" height="315" src="EMBED_URL_FROM_FILE" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Section 2: [Title of Demonstration]
+**Description:**  
+Write your description here.
+
+<iframe width="560" height="315" src="EMBED_URL_FROM_FILE" frameborder="0" allowfullscreen></iframe>
+
+---
+
+### Section 3: [Title of Demonstration]
+**Description:**  
+Write your description here.
+
+<iframe width="560" height="315" src="EMBED_URL_FROM_FILE" frameborder="0" allowfullscreen></iframe>
+
+
 
 ## Robot Design
 
