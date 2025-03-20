@@ -53,8 +53,8 @@ We faced many challenges that we did not expect to encounter while trying to com
 | Electronics Mounting Plate | <img width="500" alt="Electronics Plate" src="Images/Electronics Plate.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Electronics%20plate%20v13.f3d) |
 | Camera Mount | <img width="500" alt="Camera Mount" src="Images/Camera Mount Assembly .png"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Camera%20Mount/Camera%20Mount%20assembly%20v5.f3z) |
 | GPS Mount | <img width="500" alt="GPS Mount" src="Images/GPS mount.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Gps%20mount%20v2.f3d) |
-| Hinge Arm | <img width="500" alt="Hinge Arm" src="Images/Hinge Arm.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Hinge%20arm%20v8.f3d) |
-| Hinge and GPS stand | <img width="500" alt="Hinge and GPS stand" src="Images/Hinge Stand .jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/GPS+hinge%20stand%20v8.f3d) |
+| Hinge Arm | <img width="400" alt="Hinge Arm" src="Images/Hinge Arm.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Hinge%20arm%20v8.f3d) |
+| Hinge and GPS stand | <img width="400" alt="Hinge and GPS stand" src="Images/Hinge Stand .jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/GPS+hinge%20stand%20v8.f3d) |
 | Magnetic Lock | <img width="500" alt="Magnetic Lock" src="Images/Magnetic Lock.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Magnetic%20Lock%20v7.f3d) |
 | Jetson case | <img width="500" alt="Jetson Case" src="Images/Jetson Case.jpg"><br>[🔗 CAD File](LINK_TO_CAD_FILE) |
 | New Chassis Assembly | <img width="500" alt="New Chassis Assembly" src="Images/Chassis Assembly.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Assemply%20v7.f3z) |
