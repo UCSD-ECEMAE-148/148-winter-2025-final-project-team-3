@@ -12,7 +12,7 @@
     <li><a href="#challenges">Challenges</a></li>
     <li><a href="#Robot-Design">Robot Design</a></li>
       <ul>
-        <li><a href="#Mechanical-Designs">Mechanical Designs/a></li>
+        <li><a href="#Mechanical-Designs">Mechanical Designs</a></li>
         <li><a href="#Electrical-System-Diagram">Electrical System Diagram</a></li>
       </ul>
   </ol>
