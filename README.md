@@ -93,7 +93,8 @@ Write your description here.
 | Hinge Arm | <img width="400" alt="Hinge Arm" src="Images/Hinge Arm.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Hinge%20arm%20v8.f3d) |
 | Hinge and GPS stand | <img width="400" alt="Hinge and GPS stand" src="Images/Hinge Stand .jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/GPS+hinge%20stand%20v8.f3d) |
 | Magnetic Lock | <img width="500" alt="Magnetic Lock" src="Images/Magnetic Lock.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Magnetic%20Lock%20v7.f3d) |
-| Jetson case | <img width="500" alt="Jetson Case" src="Images/Jetson Case.jpg"><br>[🔗 CAD File](LINK_TO_CAD_FILE) |
+| Jetson Case Top | <img width="500" alt="Jetson Case" src="Images/Jetson Case Top.jpg"><br>[🔗 CAD File](LINK_TO_CAD_FILE) |
+| Jetson Case Bottom | <img width="500" alt="Jetson Case" src="Images/Jetson Case Bottom.jpg"><br>[🔗 CAD File](LINK_TO_CAD_FILE) |
 | New Chassis Assembly | <img width="500" alt="New Chassis Assembly" src="Images/Chassis Assembly.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Assemply%20v7.f3z) |
 
 
