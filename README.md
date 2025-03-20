@@ -50,9 +50,12 @@ We faced many challenges that we did not expect to encounter while trying to com
 ## Mechanical Designs
 | Part | CAD Model |
 |------|--------------|
-| Electronics Mounting Plate, by Kim Garbez | <img width="634" alt="Electronics Plate" src="Images/Camera Mount Assembly .png"> |
-| Camera Mount, by William Harris | <img width="634" alt="Camera Mount" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/Camera.webp"> |
-| Lidar Mount, by Kim Garbez | <img width="634" alt="Lidar Mount" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/LIDAR.png"> |
-| GPS Mount, by Kim Garbez | <img width="634" alt="GPS Mount" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/GPS.png"> |
-| Jetson Case, Retrieved from: https://www.thingiverse.com/thing:3532828/files | <img width="634" alt="Jetson Case" src="https://github.com/dwengxz/SU24-TEAM6-MAE148/blob/792c0eef7e7c57e736fde877688d5b3292c942d8/img/Jetson_Case.jpg"> |
+| Electronics Mounting Plate | <img width="634" alt="Electronics Plate" src="Images/Electronics Plate.jpg"> |
+| Camera Mount | <img width="634" alt="Camera Mount" src="Images/Camera Mount Assembly.png"> |
+| GPS Mount | <img width="634" alt="GPS Mount" src="Images/GPS mount.jpg"> |
+| Hinge Arm | <img width="634" alt="Lidar Mount" src="Images/Hinge Arm.jpg"> |
+| Hinge and GPS stand | <img width="634" alt="Lidar Mount" src="Images/Hinge Stand .jpg"> |
+| Magnetic Lock | <img width="634" alt="Lidar Mount" src="Images/Magnetic Lock.jpg"> |
+| Jetson case | <img width="634" alt="Lidar Mount" src="Images/Magnetic Lock.jpg"> |
+| New Chassis Assembly | <img width="634" alt="Jetson Case" src="Images/Chassis Assembly.jpg"> |
 
