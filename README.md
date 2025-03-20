@@ -95,6 +95,7 @@ Write your description here.
 | Magnetic Lock | <img width="500" alt="Magnetic Lock" src="Images/Magnetic Lock.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Magnetic%20Lock%20v7.f3d) |
 | Jetson Case Top | <img width="500" alt="Jetson Case" src="Images/Jetson Case Top.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Jetson%20Top%20V1.SLDPRT) |
 | Jetson Case Bottom | <img width="500" alt="Jetson Case" src="Images/Jetson Case Bottom.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Jetson%20Bottom%20V1.SLDPRT) |
+| Camera and ElectroMagnet Stand | <img width="500" alt="Jetson Case" src="Images/Camera and EM Stand.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Camera%20and%20EM%20Stand.SLDPRT) |
 | New Chassis Assembly | <img width="500" alt="New Chassis Assembly" src="Images/Chassis Assembly.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Assemply%20v7.f3z) |
 
 
