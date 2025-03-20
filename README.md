@@ -10,7 +10,11 @@
     <li><a href="#what-we-promised">Promises and Stretch Goals</a></li>
     <li><a href="#accomplishments">Accomplishments</a></li>
     <li><a href="#challenges">Challenges</a></li>
-    <li><a href="#mechanical-design">Mechanical Design</a></li>
+    <li><a href="#Robot-Design">Robot Design</a></li>
+      <ul>
+        <li><a href="#Mechanical-Designs">Mechanical Designs/a></li>
+        <li><a href="#Electrical-System-Diagram">Electrical System Diagram</a></li>
+      </ul>
   </ol>
 <hr>
 
@@ -46,8 +50,9 @@ We faced many challenges that we did not expect to encounter while trying to com
 
 <hr>
 
+## Robot Design
 
-## Mechanical Designs
+### Mechanical Designs
 | Part | CAD Model |
 |------|--------------|
 | Electronics Mounting Plate | <img width="500" alt="Electronics Plate" src="Images/Electronics Plate.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Electronics%20plate%20v13.f3d) |
@@ -58,5 +63,13 @@ We faced many challenges that we did not expect to encounter while trying to com
 | Magnetic Lock | <img width="500" alt="Magnetic Lock" src="Images/Magnetic Lock.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Magnetic%20Lock%20v7.f3d) |
 | Jetson case | <img width="500" alt="Jetson Case" src="Images/Jetson Case.jpg"><br>[🔗 CAD File](LINK_TO_CAD_FILE) |
 | New Chassis Assembly | <img width="500" alt="New Chassis Assembly" src="Images/Chassis Assembly.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Assemply%20v7.f3z) |
+
+
+### Electrical System Diagram
+| Comprehensive Wiring Diagram |
+|------|
+| <img width="700" alt="Comprehensive Wiring Diagram" src="Images/Wiring Diagram.png"> |
+
+
 
 
