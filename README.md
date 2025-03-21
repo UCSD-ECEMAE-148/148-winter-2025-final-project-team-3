@@ -2,7 +2,10 @@
 ![image](https://github.com/user-attachments/assets/6a336c9e-8648-4a46-ac29-695cd053a5bd)
 ### <div align="center"> MAE 148 Final Project </div>
 #### <div align="center"> Team 3 Winter 2025 </div>
-<img width="500" alt="Electronics Plate" src="Images/ECE148_Car.jpg">
+<p align = center>
+  <img width="800" alt="Electronics Plate" src="Images/ECE148_Car.jpg">
+</p>
+
 
 
 ## Table of Contents
