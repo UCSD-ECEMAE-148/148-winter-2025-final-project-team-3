@@ -49,15 +49,29 @@ Stretch Goals
 <hr>
 
 ## Accomplishments
-We succesfully utilized the Point One Nav GNSS in order to get global positions and navigate between warehouses. The model we have running on the OAK-D Lite detects and identifies AprilTags via DepthAI SDK's preset April Tag library
+- We first were able to succesfully create a custom circuit that used an Arduino Pro Micro to control a relay to turn on and off our electromagnet. Later we were able to use Python's serial library to allow our Jetson to interface with the circuit and turn on the electromagnet when needed. <br>
+- We created a new custom electronics board with a new camera mount and electromagnet mount. <br>
+- We succesfully utilized ROS2 and DepthAI's April Tag library in order to allow our OAK-D camera to detect april tags. We calculate how far the April Tag is and how off-center it is as well to determine how much to turn and drive. Using the /drive topic we can control speed and steering angle. With initial testing we found our robot would turn too much in proportion to the error. We created a PID class to help fine tune our robots self-alignment with April Tags. In the end we sucessfully completed the task of autonomously driving up to and algining ourself to a box marked with an April Tag, then pick it up for transportation! <br>
+- We succesfully utilized the PointOneNav GNSS in ROS2 order to get global positions and navigate between warehouses. Using Python's pymap3d library we can convert global coordinates into relative coordinates. For navigation we set an origin and the coordinate of a warehouse, then simply use y = mx + b to determine the path by creating a straight line to the warehouse. We can now use cross track error and the determinant of two vectors to see how we deviate from the line and see which side we are on, then use our PID class to realign ourselves onto the path. In the end we were able to succesfully navigate to a warehouse autonomously using GNSS! <br>
 <hr>
 
 ## Challenges
-We faced many challenges that we did not expect to encounter while trying to complete our project. The first of which
+- Our electronics mount broke during the race, causing us to have to redesign a base and reintegrate our electronics.
+- We initially made our own electromagnet, however could not integrate it with the relay circuit, causing us to have to use a store bought one.
+- The first camera mount we created was too high and since it was adujustable the angle could change and require us to recallibrate our April Tag detection. We thus created a new short, fixed camera mount that also could hold our electromagnet.
+- It took one week to debug and get our GPS to work. We tried two different repositories for the PointOneNav, tried different Docker containers, tried uninstalling and reinstalling the fusion-engine-driver, we tried other GPS modules, we even tried to use the Ublox, all to no avail. After one week of trieless debugging and suffering, it turns out it really was just our module. Our module simply did not work with the fusion-engine-driver in ROS2, but our TA Winston had a module that did and he let us use his.
+- A lot of restless coding, debugging, and testing, trying to integrate our autonomous system fully in ROS2. 
+- Issues with our Docker container caused us to lose some code and have to rewrite it.
+- Jetson SD card was corrupted the day before our final presentation, and we could not save our Docker conatiner. Causing us to have to reflash our SD card, reinstall and setup everything such as pulling and setting up the Docker image, and also having to rewrite a lot of missing code.
+- Created our own topic and message interface for our GPS and April Tag nodes, but then our VESC stopped working, preventing us from testing the interface.
 
 <hr>
 
 ## Potential Improvements
+- Create a new camera mount such that the camera is a bit farther back, because since the camera was in the front it could not see the April Tag if it was too close.
+- Design a different electromagnet grabber, our design required the boxes to be on a little pallet. Maybe have the electromagnet pick up boxes from above like a crane.
+- Integrate a better circuit design using perf boards or even a PCB rather than just connecting everything with wires and electrical tape. 
+- Complete testing the custom topic and interface to fully integrate the April Tag and GPS nodes. 
 
 <hr>
 
