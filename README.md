@@ -75,31 +75,42 @@ Stretch Goals
 
 <hr>
 
-## Demonstrations
+## Progress Videos
 
-### Section 1: [Title of Demonstration]
+### Electromagnet Testing
 **Description:**  
-Write your description here.
+Demonstration of our custom electromagnet, and later the Arduino relay circuit with a store bought electromagnet communicating via SPI to the Jetson.
 
-<iframe width="560" height="315" src="EMBED_URL_FROM_FILE" frameborder="0" allowfullscreen></iframe>
+[![Custom Electromagnet](https://img.youtube.com/vi/Nj_8vAmQDf4/0.jpg)](https://youtube.com/shorts/Nj_8vAmQDf4?feature=share)
+[![Jetson and Arduino Talking](https://img.youtube.com/vi/6ehe19gdT4E/0.jpg)](https://youtube.com/shorts/6ehe19gdT4E?feature=share)
 
-
-
-### Section 2: [Title of Demonstration]
+### April Tag Testing
 **Description:**  
-Write your description here.
+Initial April Tag detection algorithm, April Tag detection without PID tuning, and finally April Tag detection with PID tuning as well as a POV shot of what the robot sees during self-alignment.
 
-<iframe width="560" height="315" src="EMBED_URL_FROM_FILE" frameborder="0" allowfullscreen></iframe>
+[![Inital April Tag Detection](https://img.youtube.com/vi/lWoA0QRKPfw/0.jpg)](https://youtube.com/shorts/lWoA0QRKPfw?feature=share)
+[![No PID](https://img.youtube.com/vi/V5mrUUOpYhs/0.jpg)](https://youtube.com/shorts/V5mrUUOpYhs?feature=share)
+[![April Tag PID](https://img.youtube.com/vi/OQ9bbp3Mwuc/0.jpg)](https://youtube.com/shorts/OQ9bbp3Mwuc?feature=share)
+[![April Tag PID POV](https://img.youtube.com/vi/0pPFK0INl1c/0.jpg)](https://youtube.com/shorts/0pPFK0INl1c?feature=share)
 
-
-
-### Section 3: [Title of Demonstration]
+### GPS Testing
 **Description:**  
-Write your description here.
+Initial GPS testing without PID tuning.
 
-<iframe width="560" height="315" src="EMBED_URL_FROM_FILE" frameborder="0" allowfullscreen></iframe>
+[![GPS no PID](https://img.youtube.com/vi/9fqmz0wuvG4/0.jpg)](https://youtube.com/shorts/9fqmz0wuvG4?feature=share)
 
+<hr>
 
+## Final Demonstrations
+
+### April Tag Detection and GPS Navigation
+**Description:**  
+Sucessfull autonomous loading of supply with April Tag Detection using PID tuning. Succesfull autonomous navigation to a warehouse point 'A' using GPS and PID tuning as well.
+
+[![Final April Tag](https://img.youtube.com/vi/S16Okz2q1UY/0.jpg)](https://youtube.com/shorts/S16Okz2q1UY?feature=share)
+[![Final GPS](https://img.youtube.com/vi/vWnwtKYyrfo/0.jpg)](https://youtube.com/shorts/vWnwtKYyrfo?feature=share)
+
+<hr>
 
 ## Robot Design
 
