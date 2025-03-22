@@ -32,7 +32,7 @@ Tigran Grigoryan - MAE Controls & Robotics - Class of 2027
 
 Kanishk Mehta - MAE Aerospace - Class of 2026
 
-Juan Sanchez - MAE Aerospace - Class of 2026
+Juan Sanchez - MAE Aerospace Flight Dynamics and Control- Class of 2026
 <hr>
 
 ## Abstract
