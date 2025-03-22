@@ -128,12 +128,21 @@ Sucessfull autonomous loading of supply with April Tag Detection using PID tunin
 | Camera and ElectroMagnet Stand | <img width="500" alt="Jetson Case" src="Images/Camera and EM Stand.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Camera%20and%20EM%20Stand.SLDPRT) |
 | New Chassis Assembly | <img width="500" alt="New Chassis Assembly" src="Images/Chassis Assembly.jpg"><br>[🔗 CAD File](CAD%20Files/New%20Chassis/Assemply%20v7.f3z) |
 
+<hr>
 
 ### Electrical System Diagram
 | Comprehensive Wiring Diagram |
 |------|
 | <img width="700" alt="Comprehensive Wiring Diagram" src="Images/Wiring Diagram.png"> |
 
+<hr>
+
+## Gantt Chart
+<p align = center>
+  <img width="800" alt="Electronics Plate" src="Images/GanttChart.png">
+</p>
+
+<hr>
 
 ## Course Deliverables
 Here are all the team assignments we had to complete for the course.
@@ -142,4 +151,7 @@ Here are all the team assignments we had to complete for the course.
 - [OpenCV Laps](https://youtu.be/_cmjnNDHkDQ?si=lZVS0dAk0vt-fLF-)
 - [Progress Update Slides](https://docs.google.com/presentation/d/1vnkvjQhTCcCYGIWP700G1c7TLgcMM7nZI48wmxLYrfw/edit?usp=sharing)
 - [Final Presentation Slides](https://docs.google.com/presentation/d/1t6mhh3AGAhgKwmr5gQEw1CEoPPurwSvcvcnYaqPXGoU/edit?usp=sharing)
+
+<hr>
+
 
