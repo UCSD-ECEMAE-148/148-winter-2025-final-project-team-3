@@ -135,5 +135,11 @@ Sucessfull autonomous loading of supply with April Tag Detection using PID tunin
 | <img width="700" alt="Comprehensive Wiring Diagram" src="Images/Wiring Diagram.png"> |
 
 
-
+## Course Deliverables
+Here are all the team assignments we had to complete for the course.
+- [Autonomous Laps](https://youtube.com/shorts/bM4KuNR4FdE?si=LPRqq_h8zV2o7q9d)
+- [GPS Laps](https://youtu.be/LaXMkxYxspk)
+- [OpenCV Laps](https://youtu.be/_cmjnNDHkDQ?si=lZVS0dAk0vt-fLF-)
+- [Progress Update Slides](https://docs.google.com/presentation/d/1vnkvjQhTCcCYGIWP700G1c7TLgcMM7nZI48wmxLYrfw/edit?usp=sharing)
+- [Final Presentation Slides](https://docs.google.com/presentation/d/1t6mhh3AGAhgKwmr5gQEw1CEoPPurwSvcvcnYaqPXGoU/edit?usp=sharing)
 
