@@ -54,6 +54,7 @@ Stretch Goals
   - Integrated our own custom PID control to self-align towards boxes with April Tags.
 - Created custom GPS algorithm for autonomous navigation to warehouse points.
   - Also used custom PID control along with cross track error algorithm to stay on path.
+  - Used .csv files and parsed them for GPS coordinates
 <hr>
 
 ## Challenges
