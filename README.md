@@ -49,10 +49,11 @@ Stretch Goals
 <hr>
 
 ## Accomplishments
-- We first were able to succesfully create a custom circuit that used an Arduino Pro Micro to control a relay to turn on and off our electromagnet. Later we were able to use Python's serial library to allow our Jetson to interface with the circuit and turn on the electromagnet when needed. <br>
-- We created a new custom electronics board with a new camera mount and electromagnet mount. <br>
-- We succesfully utilized ROS2 and DepthAI's April Tag library in order to allow our OAK-D camera to detect april tags. We calculate how far the April Tag is and how off-center it is as well to determine how much to turn and drive. Using the /drive topic we can control speed and steering angle. With initial testing we found our robot would turn too much in proportion to the error. We created a PID class to help fine tune our robots self-alignment with April Tags. In the end we sucessfully completed the task of autonomously driving up to and algining ourself to a box marked with an April Tag, then pick it up for transportation! <br>
-- We succesfully utilized the PointOneNav GNSS in ROS2 order to get global positions and navigate between warehouses. Using Python's pymap3d library we can convert global coordinates into relative coordinates. For navigation we set an origin and the coordinate of a warehouse, then simply use y = mx + b to determine the path by creating a straight line to the warehouse. We can now use cross track error and the determinant of two vectors to see how we deviate from the line and see which side we are on, then use our PID class to realign ourselves onto the path. In the end we were able to succesfully navigate to a warehouse autonomously using GNSS! <br>
+- Created and integrated custom electromagnet grabber mechanism.
+- Developed April Tag detection algorithm for autonomous loading of supplies.
+  - Integrated our own custom PID control to self-align towards boxes with April Tags.
+- Created custom GPS algorithm for autonomous navigation to warehouse points.
+  - Also used custom PID control along with cross track error algorithm to stay on path.
 <hr>
 
 ## Challenges
@@ -134,6 +135,30 @@ Sucessfull autonomous loading of supply with April Tag Detection using PID tunin
 | Comprehensive Wiring Diagram |
 |------|
 | <img width="700" alt="Comprehensive Wiring Diagram" src="Images/Wiring Diagram.png"> |
+
+<hr>
+
+## Software Design 
+### Overview 
+Our project was completed using ROS2 through the djnighti/ucsd_robocar container, also utilizing libraries such as DepthAI AprilTag and pymap3d. With the use of ROS2 we were able to have free reign over our code allowing for full control and custom development of our autonomous system.
+
+### Code Explanations 
+april_tag_detector.py, car_control.py, PID.py
+- april_tag_detector.py: We succesfully utilized ROS2 and DepthAI's April Tag library in order to allow our OAK-D camera to detect April Tags. We calculate how far the April Tag is and how off-center it is as well to determine how much to turn and drive.
+  - Created a custom circuit that used an Arduino Pro Micro to control a relay to turn on and off our electromagnet, then used Python's serial library to allow our Jetson to interface with the circuit and turn on the electromagnet when needed. 
+- car_control.py: we use the /drive topic with ackermann_msgs/msg/AckermannDriveStamped interface message type to control speed and steering angle of the bot.
+- PID.py: With initial testing we found our robot would turn too much in proportion to the error. We created a PID class to help fine tune our robots self-alignment with April Tags.
+
+gps_navigation.py, coordinates.csv
+- gps_navigation.py: We succesfully utilized the PointOneNav GNSS in ROS2 order to get global positions and navigate between warehouses. Using Python's pymap3d library we can convert global coordinates into relative coordinates. For navigation we use pandas library to read a .csv file tellings us the origin and the coordinate of a warehouse, then simply use y = mx + b to determine the path by creating a straight line to the warehouse. We can now use cross track error and the determinant of two vectors to see how we deviate from the line and see which side we are on, and then use our PID class to realign ourselves onto the path.
+- coordinates.csv: Holds the coordinates for the warehouse and origin.
+
+final_project.launch.py, gps_april_msgs
+- final_project.launch.py: Created a launch file that would launch our april_tag_detector.py and gps_navigation.py nodes, as well as the ucsd_robocar_nav2_pkg all_nodes.launch.py that would launch the vesc node.
+- gps_april_msgs: Created a custom message interface called gps_april_msgs/msg/GpsApril along with a new topic named /GpsApril to allow the April Tag and GPS nodes to talk to eachother. This interface contained important information like if the robot was in approach mode or origin mode to tell it if it needs to drive to a warehouse or return to an origin, the warehouse name it needs to go to, as well as GPS mode and April Tag mode to well it when to run April Tag detection or GPS navigation.
+
+### Implementation
+If you wish to implement our code into your own project it is really simple! You can use the same container as you did for the OpenCV laps as we used the djnighti image with ROS2 for this one. All of our code was completed inside the ucsd_robocar_nav2_pkg, so simply add the code into this package. Make sure you add the executables in setup.py and if you rename them make sure to modify the launch file as well. If you want to create your own topic or interface you have to create a new package in ucsd_robocar_hub2, where all the packages are stored, in this case you can simply copy our folder as it has set up all the Cmake files already, you simply would just have to change the names to whatever you want. That is about it, have fun and goodluck!
 
 <hr>
 
